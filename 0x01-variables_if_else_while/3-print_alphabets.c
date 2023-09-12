@@ -1,22 +1,23 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: Always 0 (success)
+ *
+ * Return: (0)
+ *
  */
 int main(void)
 {
-	char c;
-	char d;
-
-	c = 'a';
-	d = 'A';
+	char c = 'a';
+	char d = 'A';
 	while
-		(c <= 'z') {
-			putchar (c);
+		(c <= 'z')
+		{
+			putchar(c);
 			c++;
 		}
 	while
-		(d <= 'z') {
+		(d <= 'Z')
+		{
 			putchar (d);
 			d++;
 		}
